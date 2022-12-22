@@ -20,7 +20,7 @@
 }
 
 #nav ul li {
-    padding: 5px;
+    padding: 15px;
     list-style: none;
     text-decoration: none;
 }
@@ -261,13 +261,14 @@ span {
     height: 8vh;
     width: 120px;
     color: #f9f9f9;
-    position: fixed;
     align-items: center;
     justify-content: center;
-    border: 1px solid #000000;
+    position: fixed;
+    border: none;
+    /* border: 1px solid #000000; */
     border-bottom-right-radius: 86px;
     border-top-right-radius: 86px;
-    background-color: #000000;
+    background-color: #DC3535;
 }
 
 #b-2:hover {
@@ -352,6 +353,39 @@ video{
 .location h2{
     font-weight: bold;
 }
-#carouselExampleControls{
-    position: static;
+/* MARQUEE WORKING FLOW */
+.marquee{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #000000;
 }
+marquee{
+    color: #f9f9f9;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.button-top{
+    height: 14vh;
+    width: 100px;
+    position: sticky;
+    bottom: 0;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    border-top-right-radius: 20px;
+    background-color: transparent;
+}
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
