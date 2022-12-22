@@ -20,7 +20,7 @@
 }
 
 #nav ul li {
-    padding: 15px;
+    padding: 12px;
     list-style: none;
     text-decoration: none;
 }
@@ -32,6 +32,7 @@
 #nav ul li:hover {
     color: #DC3535;
     cursor: pointer;
+    font-size: 20px;
     transition: 0.5s;
 }
 
@@ -275,6 +276,7 @@ span {
     cursor: pointer;
     transition: 0.5s;
     color: #000000;
+    font-size: 20px;
     background-color: #f9f9f9;
     border: 1px solid #000000;
 }
@@ -355,7 +357,7 @@ video{
 }
 /* MARQUEE WORKING FLOW */
 .marquee{
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     display: flex;
     align-items: center;
