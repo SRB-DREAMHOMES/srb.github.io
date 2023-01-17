@@ -22,7 +22,7 @@
 <body>
 
   <!-- WORKING OF NAVBAR -->
-  <nav class="navbar" id="nav" style="background-color: #e3f2fd; align-items: flex-end; height: 70px;">
+  <nav class="navbar" id="nav" style="background-color: #e3f2fd; align-items: flex-end;">
     <div class="left-nav">
       <ul>
         <a href="#">
@@ -41,7 +41,7 @@
     </div>
   </nav>
   <div class="marquee">
-    <marquee>
+    <marquee scrollmount="100">
       भांकरोटा,अजमेर रोड पर सबसे शानदार लोकेशन पर पाए प्लॉट्स ,सबसे शानदार गेटेड टाउनशिप जहां आप पाए हर साइज के प्लॉट्स, 80% तक लोन सुविधा , सभी तरह की सुविधाए भी उपलब्ध ,फुल्ली गेटेड प्रॉपर्टी , बैंक द्वारा लोन सुविधा और सबसे शानदार एमेनिटीज,गेटेड टाउनशिप,किड्स प्ले एरिया,ओपन जिम,टेंपल,इंटरलॉकिंग टाइल्स,स्ट्रीट लाइट,ओवरहेड वाटर टैंक और भी बहुत कुछ तो सोचना क्या आये और साइट विजिट करे!
       अधिक जानकारी के लिए संपर्क करें।
       +91 72200 01222
@@ -276,5 +276,34 @@
     <img src="./assets/arrow.png" alt="">
   </div>
 </a>
+
+  <button class="open-button" onclick="openForm()">Chat</button>
+  
+  <div class="chat-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1> Ask Regarding Plots?</h1>
+  
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message.." name="msg"></textarea>
+  
+      <button type="submit" class="btn" onclick="nextpage()">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  
+  <script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+
+  function nextpage(){
+    alert("MESSAGE WILL BE SENDED TO AGENT DON'T WORRY !");
+  }
+  </script>
+  
 </body>
 </html>
