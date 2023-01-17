@@ -20,7 +20,7 @@
 }
 
 #nav ul li {
-    padding: 15px;
+    padding: 10px;
     list-style: none;
     text-decoration: none;
 }
@@ -41,12 +41,13 @@
     justify-content: center;
 }
 .heading {
-    height: 100px;
+    height: 200px;
     display: flex;
     align-items: center;
     margin-top: 50px;
     flex-direction: column;
     justify-content: center;
+    /* background-color: #04AA6D; */
 }
 .heading-1 {
     height: 250px;
@@ -67,7 +68,7 @@
 }
 
 .heading h1 {
-    font-size: 28px;
+    font-size: 45px;
     font-weight: 700;
     color: #001253;
 }
@@ -316,7 +317,7 @@ span {
 }
 /* WORKING OF VIDEO CONTAINER */
 .look{
-    height:35vh;
+    height:50vh;
     width: 100%;
     display: flex;
     margin-top: 30px;
@@ -326,10 +327,12 @@ span {
 video{
     height: 40vh;
     width: 100%;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    border-radius: 20px;
+    margin-top: 100px;
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); */
 }
 .happy{
-    height:20vh;
+    height:30vh;
     width: 100%;
     z-index: -1;
     display: flex;
