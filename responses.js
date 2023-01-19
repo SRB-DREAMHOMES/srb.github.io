@@ -10,7 +10,7 @@ function getBotResponse(input) {
 
     // Simple responses
     if (input == "Hello") {
-        return "Hii! sir How can i help you?";
+        return "Hii! How can i help you?";
     }else if (input == "Hii") {
         return "Hey! Good morning/Afternoon/Evening";
     }
