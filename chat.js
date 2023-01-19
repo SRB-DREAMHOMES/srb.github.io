@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "WELCOME TO SRB DREAMHOMES...!"
+    let firstMessage = "Hey! Sunil here Founder of SRB DREAMHOMES🏡 Welcome to DreamHomes Know you can select any plots, villas and townships on this platform and contact me to consult about price and other activites...Be happy and stay tuned with SRB..!"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
@@ -60,7 +60,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = " SRB DREAMHOMES THANKS TO VISIT... ";
+        userText = " CONSULT ANY QUERY CALL AGENT OF SRB DREAMHOMES🏡 ";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
