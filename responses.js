@@ -28,13 +28,13 @@ function getBotResponse(input) {
     else if(input == "Founder of srb"){
         return "MR.SUNIL SAINI";
     }
-    else if(input == "ok"){
+    else if(input == "Ok"){
         return "Thanks Visitor for interset in SRB DREAMHOMES";
     }
-    else if(input == "ohk"){
+    else if(input == "Ohk"){
         return "Thanks Visitor for interset in SRB DREAMHOMES";
     }
-    else if(input == "ohkey"){
+    else if(input == "Ohkey"){
         return "Thanks Visitor for interset in SRB DREAMHOMES";
     }
     else{

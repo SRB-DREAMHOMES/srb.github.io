@@ -45,7 +45,7 @@
     height: 240px;
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 30px;
     flex-direction: column;
     justify-content: center;
     /* background-color: #04AA6D; */
@@ -202,18 +202,21 @@ span {
 /* AGENT WORKING FLOW */
 
 .agent {
-    height: 100%;
+    height: 55vh;
     width: 100%;
     display: flex;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center ;
+    /* background-color: #DC3535; */
 }
 
 .agent img {
     height: 200px;
     width: 200px;
+    position: relative;
+    z-index: -1;
     clip-path: circle(30.0% at 50% 50%);
 }
 
@@ -224,12 +227,13 @@ span {
 /* WORKING FLOW OF DETAILS */
 
 #icons_container {
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
+    /* background-color: aqua; */
 }
 
 .icon-img {
@@ -251,6 +255,7 @@ span {
 .h3_text {
     height: 8vh;
     width: 300px;
+    font-size: 14px;
     display: flex;
     margin-top: 40px;
     color: #717171;
@@ -352,10 +357,15 @@ video{
     align-items: center;
     margin-bottom: -40px;
     justify-content: center;
+    /* background-color: #DC3535; */
     flex-direction: column-reverse;
 }
 .location h2{
     font-weight: bold;
+}
+.mapouter{
+    height: 40vh;
+    width: 100%;
 }
 /* MARQUEE WORKING FLOW */
 .marquee{
