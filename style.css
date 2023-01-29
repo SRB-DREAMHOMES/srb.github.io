@@ -7,6 +7,7 @@
 /* NAVBAR WORKINH FLOW */
 
 #nav {
+    height: 14vh;
     top: 0;
     z-index: 555;
     display: flex;
@@ -43,7 +44,7 @@
     justify-content: center;
 }
 .heading {
-    height: 380px;
+    height: 180px;
     display: flex;
     align-items: center;
     /* margin-top: 30px; */
@@ -72,7 +73,7 @@
 }
 
 .heading h1 {
-    font-size: 75px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
     color: #001253;
