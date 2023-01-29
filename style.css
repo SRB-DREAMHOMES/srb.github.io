@@ -8,6 +8,7 @@
 
 #nav {
     top: 0;
+    z-index: 555;
     display: flex;
     position: sticky;
     align-items: center;
@@ -42,11 +43,11 @@
     justify-content: center;
 }
 .heading {
-    height: 240px;
+    height: 380px;
     display: flex;
     align-items: center;
-    margin-top: 30px;
-    position: relative;
+    /* margin-top: 30px; */
+    /* position: relative; */
     z-index: -1;
     flex-direction: column;
     justify-content: center;
@@ -71,8 +72,9 @@
 }
 
 .heading h1 {
-    font-size: 45px;
+    font-size: 75px;
     font-weight: 700;
+    text-align: center;
     color: #001253;
 }
 
@@ -187,12 +189,11 @@ span {
 }
 
 .container-pics {
-    height: 230vh;
+    height: 250vh;
     width: 100%;
     display: flex;
     margin-top: 100px;
     align-items: center;
-    /* background-color: #DC3535; */
     flex-direction: column;
 }
 .container-pics img {
@@ -274,7 +275,7 @@ span {
     justify-content: center;
     position: fixed;
     border: none;
-    /* border: 1px solid #000000; */
+    z-index: 555;
     border-bottom-right-radius: 86px;
     border-top-right-radius: 86px;
     background-color: #DC3535;
@@ -303,25 +304,33 @@ span {
     justify-content: center;
 }
 .project-pics img{
-    height: 200px;
-    width: 300px;
+    height: 300px;  
+    width: 400px;
     padding: 30px;
 }
 
 /* WORKING OF AAYAN CONTAINER */
 .AAYAN{
-    height: 90vh;
+    height: 60vh;
     width: 100%;
     z-index: -1;
     display: flex;
     color: #000000;
     text-align: center;
-    position: relative;
+    flex-direction: column;
+    /* position: relative; */
     align-items: center;
+    margin-top: 100px;
     flex-direction: column;
     justify-content: center;
     background-color:#e3f2fd;
-    clip-path: circle(57.9% at 50% 50%);
+    /* clip-path: circle(57.9% at 50% 50%); */
+    /* clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%); */
+}
+.AAYAN img{
+    width: 270px;
+    height: 170px;
+    box-shadow: -1px 15px 20px 10px #717171;
 }
 /* WORKING OF VIDEO CONTAINER */
 .look{
@@ -374,10 +383,10 @@ video{
     height: 10vh;
     width: 100%;
     display: flex;
-    margin-top: 20px;
+    margin-top: 50px;
     align-items: center;
     position: sticky;
-    z-index: -1;
+    /* z-index: -1; */
     top: 0;
     opacity: .9;
     border-radius: 20%;
@@ -420,4 +429,14 @@ marquee{
     to {
       visibility: hidden;
     }
+  }
+
+  .chatbot{
+    z-index: 444;
+  }
+  #forsale{
+    height: 340px;
+    width: 340px;
+    position: absolute;
+    margin-top: -400px;
   }
