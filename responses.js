@@ -38,6 +38,6 @@ function getBotResponse(input) {
         return "Thanks Visitor for interset in SRB DREAMHOMES";
     }
     else{
-        return "I can't understand Ask Again..?";
+        return "For answer of your query please contact on :- +91 72200 01222";
     }
 };
